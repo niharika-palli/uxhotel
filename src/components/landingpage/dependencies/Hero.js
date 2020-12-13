@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Hero() {
+export const Hero = (props) => {
   return (
     <div>
 
@@ -10,24 +10,24 @@ export default function Hero() {
           {/* Slide 1 */}
           <div className="carousel-item active">
             <div className="carousel-container">
-              <h2 className="animate__animated animate__fadeInDown">Welcome to <span>Selecao</span></h2>
-              <p className="animate__animated fanimate__adeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+              <h2 className="animate__animated animate__fadeInDown">Welcome to <span>Our World</span></h2>
+              <p className="animate__animated fanimate__adeInUp">{props.content.str1}</p>
               <a href="#about" className="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
             </div>
           </div>
           {/* Slide 2 */}
           <div className="carousel-item">
             <div className="carousel-container">
-              <h2 className="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
-              <p className="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+              <h2 className="animate__animated animate__fadeInDown">{props.content.str3}</h2>
+              <p className="animate__animated animate__fadeInUp">{props.content.str2}</p>
               <a href="#about" className="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
             </div>
           </div>
           {/* Slide 3 */}
           <div className="carousel-item">
             <div className="carousel-container">
-              <h2 className="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
-              <p className="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+              <h2 className="animate__animated animate__fadeInDown">{props.content.str5}</h2>
+              <p className="animate__animated animate__fadeInUp">{props.content.str4}</p>
               <a href="#about" className="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
             </div>
           </div>

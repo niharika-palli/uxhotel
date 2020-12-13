@@ -7,11 +7,11 @@ export default function Header() {
       <header id="header" className="fixed-top d-flex align-items-center  header-transparent ">
         <div className="container d-flex align-items-center">
           <div className="logo mr-auto">
-            <h1 className="text-light"><a href="index.html">Selecao</a></h1>
+            <h1 className="text-light"><a href="index.html">Star Hotels</a></h1>
             {/* Uncomment below if you prefer to use an image logo */}
             {/* <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>*/}
           </div>
-          <nav className="nav-menu d-none d-lg-block">
+          <nav className="nav-menu d-red d-lg-block">
             <ul>
               <li className="active"><a href="index.html">Home</a></li>
               <li><a href="#about">About</a></li>
